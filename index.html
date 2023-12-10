@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LavA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/lavalogo.svg"  type="image/svg">
+</head>
+<body>
+    
+    <div class="fon" id="start">
+        <!-- Кнопка наверх / upbutton -->
+        <a href="#start">
+            <div class="upbutton">
+                Наверх
+            </div>
+        </a>
+        <!-- Для красоты добавил линии для шапки -->
+        <div class="line_header"></div>
+        <div class="line_header" id="line_header2"></div>
+        <div class="container">
+            <!-- Шапка / header -->
+            <header>
+                <div class="header_inner">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <nav>
+                        <span>Частным лицам <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Малому бизнесу и ИП <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Корпорациям <img src="img/Polygon.svg" alt="" width="10px"></span>
+                    </nav>
+                    <a href="login.html">
+                        <div class="header_button">
+                            Войти
+                        </div>
+                    </a>
+                </div>
+                <div class="header_inner" id="header_inner2">
+                    <nav id="nav2">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                </div>
+                <!-- Бургер меню / burger menu -->
+                <div class="header_inner" id="header_inner_burger">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <div class="burger" onclick="toggleMenu()">
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                        <a href="login.html">Войти в аккаунт</a>
+                    </div>
+                </div>
+            </header>
+            <!-- Баннер / banner -->
+            <div class="banner">
+                <div class="banner_inner">
+                    Для обычных <span>людей</span> с<br>
+                    необычными мечтами
+                    <a href="predloshka.html">
+                        <div class="button">
+                            Получить карту
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Межблочная линия / block spacing -->
+        <div class="block-spacing"></div>
+        <!-- Блок - предложения банка / block - bank's offers -->
+        <div class="container">
+            <main id="main1">
+                <div class="title">
+                    Предложения банка
+                </div>
+                <div class="card_container">
+                    <div class="card">
+                        <div class="card_inner">
+                            <img src="img/card_logo1.svg" alt="" width="250px">
+                            <hr>
+                            Дебетовая карта<br>
+                            <span>с  кешбэком и 1000 ₽</span>
+                            <a href="predloshka.html">
+                                <div class="button">
+                                    Подробнее
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_inner">
+                            <img src="img/card_logo2.svg" alt="" width="250px" height="157px">
+                            <hr>
+                            Кредитная карта<br>
+                            <span>до 200 дней без %</span>
+                            <a href="predloshka.html">
+                                <div class="button">
+                                    Подробнее
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_inner">
+                            <img src="img/card_logo3.svg" alt="" width="250px" height="157px">
+                            <hr>
+                            Кредит <span>0%</span> в<br>
+                            первый месяц
+                            <a href="predloshka.html">
+                                <div class="button">
+                                    Подробнее
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_inner">
+                            <img src="img/card_logo4.svg" alt="" width="250px" width="250px" height="157px">
+                            <hr>
+                            Ипотека<span> от 3%</span><br><br>
+                            <a href="predloshka.html">
+                                <div class="button">
+                                    Подробнее
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div> 
+        <!-- Блок - наши преимущества / block - our advantages -->
+        <div class="fonblock">
+            <div class="container">
+
+                <main id="main2">
+
+                    <div class="title">
+                        Наши преимущества
+                    </div>
+                    <!-- Для пк -->
+                    <div id="container">
+                        <div>
+                            <img src="img/slide1.svg"><br>
+                            Невысокие проценты по<br>
+                            кредитам и по ипотеке
+                        </div>
+                        <div>
+                            <img src="img/slide2.svg"><br>
+                            Обширный спектр услуг<br>
+                            для всех категорий<br>
+                            клиентов
+                        </div>
+                        <div>
+                            <img src="img/slide3.svg"><br>
+                            Бесплатное пользование<br>
+                            интернет-услугами
+                        </div>
+                        <div>
+                            <img src="img/slide4.svg"><br>
+                            Колл-центр работает<br>
+                            круглосуточно семь дней<br>
+                            в неделю
+                        </div>
+                    </div>
+                    <!-- Для телефона -->
+                    <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+                        <swiper-slide>
+                            <img src="img/slide1.svg"><br>
+                            Невысокие проценты по<br>
+                            кредитам и по ипотеке
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/slide2.svg"><br>
+                            Обширный спектр услуг<br>
+                            для всех категорий<br>
+                            клиентов
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/slide3.svg"><br>
+                            Бесплатное пользование<br>
+                            интернет-услугами
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img src="img/slide4.svg"><br>
+                            Колл-центр работает<br>
+                            круглосуточно семь дней<br>
+                            в неделю
+                        </swiper-slide>
+                      </swiper-container>
+                    
+                      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+                    
+
+                </main>
+            </div>
+        </div>
+        <!-- Блок - наша команда / block - our team -->
+        <div class="container">
+            <main id="main3">
+                <div class="title">
+                    Наша команда
+                </div>
+                <div class="card_container">
+                    <div class="card2">
+                        <img src="img/dmitry.svg">
+                        <div class="card_bottom">
+                            Агронян Дмитрий<br>
+                            <span>Генеральный директор</span>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="img/kostya.svg">
+                        <div class="card_bottom">
+                            Боров Константин<br>
+                            <span>Директор по развитию</span>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="img/Oxana.svg">
+                        <div class="card_bottom">
+                            Герцева Оксана<br>
+                            <span>Финансковый директор</span>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="img/artemy.svg">
+                        <div class="card_bottom">
+                            Михайлов Артемий<br>
+                            <span>Операционный директор</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!-- Блок - о банке / block about back-->
+        <div class="fonblock">
+            <div class="container">
+                <main id="main4">
+                    <div class="title">
+                        О банке
+                    </div>
+                    <div class="about_container">
+                        <div class="about_text">
+                            Банк «Lava» входит в топ-10 крупнейших банков России и является системно значимым. Развивает следующие направления бизнеса: корпоративный, инвестиционный, розничный, малый и средний, а также Private banking.
+                            Региональная сеть банка насчитывает 409 клиентских офисов в 200 городах в 73 регионах страны.
+                            Надежность банка подтверждена рейтингами российских агентств АКРА (АА(RU)), Эксперт РА (ruAA), НКР (AA+.ru).
+                        </div>
+                        <div class="about_form">
+                            <div class="form_inner">
+                                <span>Подпишитесь на email-рассылку</span><br>
+                                <div>
+                                    Ваше имя: <input type="text" id="input_name"><br>
+                                </div><br>
+                                <div>
+                                    Ваш E-mail <input type="text" id="input_email" type="email"><br>
+                                </div><br>
+                                <div class="button" id="button_form" onclick="subscribe()">
+                                    Подписаться
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <!-- Подвал / footer -->
+        <div class="container">
+            <footer>
+                <div class="footer_inner">
+                    <div>
+                        <img src="img/lavalogo.svg" alt="">
+                    </div>
+                    <nav id="footer_nav">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                    <div class="footer_info">
+                        Частным лицам<br><br>
+                        Малому бизнесу и ИП<br><br>
+                        Корпорациям
+                    </div>
+                </div><br><br>
+                <a href="http://t.me/BigBoyNaSlave" target="_blank">
+                    <span>tg: @BigBoyNaSlave</span>
+                </a>
+            </footer>
+        </div>
+    </div>
+    <script src="js/main.js"> </script>
+</body>
+</html>
+

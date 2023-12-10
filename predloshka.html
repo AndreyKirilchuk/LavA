@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LavA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/lavalogo.svg"  type="image/svg">
+</head>
+<body>
+    <div class="fon" id="start">
+        <!-- Кнопка наверх / upbutton -->
+        <a href="#start">
+            <div class="upbutton">
+                Наверх
+            </div>
+        </a>
+        <!-- Для красоты добавил линии для шапки -->
+        <div class="line_header"></div>
+        <div class="line_header" id="line_header2"></div>
+        <div class="container">
+            <!-- Шапка / header -->
+            <header>
+                <div class="header_inner">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <nav>
+                        <span>Частным лицам <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Малому бизнесу и ИП <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Корпорациям <img src="img/Polygon.svg" alt="" width="10px"></span>
+                    </nav>
+                    <a href="login.html">
+                        <div class="header_button">
+                            Войти
+                        </div>
+                    </a>
+                </div>
+                <div class="header_inner" id="header_inner2">
+                    <nav id="nav2">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                </div>
+                <!-- Бургер меню / burger menu -->
+                <div class="header_inner" id="header_inner_burger">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <div class="burger" onclick="toggleMenu()">
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                        <a href="login.html">Войти в аккаунт</a>
+                    </div>
+                </div>
+            </header>
+            <!-- Предложка -->
+            <div class="predloshka">
+                <div>
+                    Кредитная карта до 200 дней<br>
+                    без %<br>
+                    <img src="img/credit_cart.svg" alt="" id="display">
+                    <span>Мгновенное решение, нужен только паспорт. Бесплатно<br>
+                    доставим, куда удобно</span><br><br>
+                    <div id="flex">
+                        <a href="login.html">
+                            <div class="button" id="button_form">
+                                    Подписаться
+                            </div>
+                        </a>
+                        <a href="javascript:history.back()">
+                            <div class="header_button" id="neheader">
+                                Назад
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div id="predloshka_img">
+                    <img src="img/credit_cart.svg" alt="" id="none">
+                </div>
+            </div>
+            <!-- Карты предложений -->
+            <div class="predloshka_card">
+                <div>
+                    <span>до 110 дней</span><br>
+                    без процентов на все
+                </div>
+                <div>
+                    <span>0 ₽</span><br>
+                    Обслуживание навсегда
+                </div>
+                <div>
+                    <span>до 50%</span><br>
+                    Кешбэк у партнеров
+                </div>
+                <div>
+                    <span>от 9,9%</span><br>
+                    Процентная ставка
+                </div>
+            </div>
+            <!-- Подвал -->
+            <footer>
+                <div class="footer_inner">
+                    <div>
+                        <img src="img/lavalogo.svg" alt="">
+                    </div>
+                    <nav id="footer_nav">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                    <div class="footer_info">
+                        Частным лицам<br><br>
+                        Малому бизнесу и ИП<br><br>
+                        Корпорациям
+                    </div>
+                </div><br><br>
+                <a href="http://t.me/BigBoyNaSlave" target="_blank">
+                    <span>tg: @BigBoyNaSlave</span>
+                </a>
+            </footer>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LavA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/lavalogo.svg"  type="image/svg">
+</head>
+<body>
+    <div class="fon" id="start">
+        <!-- Кнопка наверх / upbutton -->
+        <a href="#start">
+            <div class="upbutton">
+                Наверх
+            </div>
+        </a>
+        <!-- Для красоты добавил линии для шапки -->
+        <div class="line_header"></div>
+        <div class="line_header" id="line_header2"></div>
+        <div class="container">
+            <!-- Шапка / header -->
+            <header>
+                <div class="header_inner">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <nav>
+                        <span>Частным лицам <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Малому бизнесу и ИП <img src="img/Polygon.svg" alt="" width="10px"></span>
+                        <span>Корпорациям <img src="img/Polygon.svg" alt="" width="10px"></span>
+                    </nav>
+                    <a href="login.html">
+                        <div class="header_button">
+                            Войти
+                        </div>
+                    </a>
+                </div>
+                <div class="header_inner" id="header_inner2">
+                    <nav id="nav2">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                </div>
+                <!-- Бургер меню / burger menu -->
+                <div class="header_inner" id="header_inner_burger">
+                    <div class="header_logo">
+                        <img src="img/lavalogo.svg" alt="" width="148px">
+                    </div>
+                    <div class="burger" onclick="toggleMenu()">
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                        <div class="burger-icon"></div>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                        <a href="login.html">Войти в аккаунт</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="fonblock" id="noshadow">
+            <div class="container">
+                <main>
+                    <div class="title">
+                        Предложения банка
+                    </div>
+                    <div class="flexbox">
+                        <div>
+                            <span>Несколько важных правил работы с интернет-банком<br>
+                            и мобильным приложением</span><br><br><br>
+                            Lava напоминает, что нельзя сообщать третьим лицам персональные данные,<br>
+                            данные банковских карт, пароли, коды из СМС-сообщений и любую<br>
+                            информацию, которая может быть использована для списания ваших средств<br>
+                            с банковских карт. Банк Lava никогда не обзванивает клиентов с<br>
+                            предложением перевести деньги «на безопасный счет» под различными<br>
+                             предлогами. Настоящие менеджеры банка Lava не имеют возможности<br>
+                              переключать звонок клиента на другие организации: сторонние банки, МВД<br>
+                               или ЦБ.
+                        </div>
+                        <div>
+                            <img src="img/safety.svg">
+                        </div>
+                    </div>
+                </main>
+
+
+            </div>
+        </div>
+        <!-- Межблочная линия / block spacing -->
+        <div class="block-spacing" id="block-spacing-reverse"></div>
+        <div class="fonblock" id="noshadow">
+            <div class="container">
+                <main>
+                    <div class="title" id="null">
+                        Наиболее частые виды мошенничества
+                    </div>
+                    <section>
+                        <div>
+                            <div class="section_block">
+                                <div>
+                                    <span>Дорогое СМС</span><br><br>
+                                    Никому не сообщайте СМС-код<br>
+                                    и данные CVV/CVC
+                                </div>
+                                <div>
+                                    <img src="img/sms.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="section_block">
+                                <div>
+                                    <span>Лжесотрудник</span><br><br>
+                                    Не сообщайте СМС-код и данные<br>
+                                     CVV/CVC даже сотрудникам банка
+                                </div>
+                                <div>
+                                    <img src="img/false-employee.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="section_block">
+                                    <div>
+                                        <span>Опасная продажа</span><br><br>
+                                        Никому не сообщайте данные<br>
+                                         своей карты
+                                    </div>
+                                    <div>
+                                        <img src="img/sale.svg" alt="">
+                                    </div>
+                            </div>
+                            <div class="section_block">
+                                <div>
+                                    <span>Розыгрыш</span><br><br>
+                                    Проверяйте адрес сайта перед<br>
+                                     вводом личных данных 
+                                </div>
+                                <div>
+                                    <img src="img/raffle.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+            </div>
+        </div>
+        <div class="container">
+            <main>
+                <div class="flexbox">
+                    <div class="whitetitle">
+                        Если у вас возникли проблемы или есть<br>
+                        вопросы, то свяжитесь с нами<br><br>
+                        <div class="flex_inner">
+                            <div >
+                                Ваше имя:<br>
+                                <input type="text" id="name_order">
+                            </div>
+                            <div>
+                                Ваш номер телефона:<br>
+                                <input type="number" id="number" >
+                            </div>
+                        </div> 
+                        <div class="button" onclick="order()">
+                            Заказать звонок
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/phone.svg">
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer_inner">
+                    <div>
+                        <img src="img/lavalogo.svg" alt="">
+                    </div>
+                    <nav id="footer_nav">
+                        <a href="index.html">Главная</a>
+                        <a href="predloshka.html">Услуги</a>
+                        <a href="dopinfo.html">Обратная связь</a>
+                    </nav>
+                    <div class="footer_info">
+                        Частным лицам<br><br>
+                        Малому бизнесу и ИП<br><br>
+                        Корпорациям
+                    </div>
+                </div><br><br>
+                <a href="http://t.me/BigBoyNaSlave" target="_blank">
+                    <span>tg: @BigBoyNaSlave</span>
+                </a>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
